@@ -1,0 +1,21 @@
+#header {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.426);
+}
+.header {
+  display: flex;
+  align-items: center;
+  nav {
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-right: 250px;
+      li {
+        font-family: var(--font-Cardo);
+        font-weight: 500;
+        font-size: 17px;
+      }
+    }
+  }
+}
