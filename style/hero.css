@@ -1,0 +1,58 @@
+#hero {
+  position: relative;
+  background-image: url(../image/hero-fon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+    h1 {
+      font-family: var(--font-Roboto);
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 38.4px;
+      color: white;
+    }
+    button {
+      font-family: var(--font-Cardo);
+      font-weight: 700;
+      font-size: 20px;
+      color: white;
+      padding: 2px 35px;
+      background: transparent;
+      border: 1px solid white;
+      margin-top: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        transform: translateY(-2px);
+        color: white;
+        border-radius: 5px;
+      }
+    }
+    .hero-black {
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+      width: 324px;
+      height: 50px;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h2 {
+        font-family: var(--font-Cardo);
+        font-weight: 400;
+        font-size: 15px;
+        color: white;
+      }
+    }
+  }
+}
