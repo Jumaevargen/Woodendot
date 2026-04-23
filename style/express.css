@@ -1,0 +1,19 @@
+#express {
+  padding: 40px 0;
+  .express {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      font-family: var(--font-Roboto);
+      font-weight: 400;
+      font-size: 12px;
+      color: #000;
+    }
+    .express-logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
