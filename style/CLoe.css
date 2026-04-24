@@ -1,0 +1,54 @@
+#cloe {
+  padding: 50px 0;
+  position: relative;
+  width: auto;
+  height: 100vh;
+  .cloe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    .cloe-text {
+      display: flex;
+      align-items: end;
+      flex-direction: column;
+      text-align: right;
+      gap: 10px;
+      h1 {
+        font-family: var(--font-Roboto);
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 56px;
+        color: black;
+      }
+      h4 {
+        font-family: var(--font-Cardo);
+        font-weight: 400;
+        font-size: 18px;
+        font-style: Italic;
+      }
+      h5 {
+        font-family: var(--font-Cardo);
+        font-weight: 400;
+        font-size: 15px;
+      }
+      p {
+        font-family: var(--font-Cardo);
+        font-weight: 400;
+        font-size: 18px;
+        span {
+          font-style: Italic;
+        }
+      }
+    }
+    .cloe-img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      img {
+        width: 960px;
+        height: 542px;
+      }
+    }
+  }
+}
